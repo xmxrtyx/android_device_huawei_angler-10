@@ -114,11 +114,11 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_COPY_FILES += \
-    device/huawei/angler/bcmdhd.cal:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd.cal \
-    device/huawei/angler/bcmdhd-pme.cal:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd-pme.cal \
-    device/huawei/angler/bcmdhd-high.cal:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd-high.cal \
-    device/huawei/angler/bcmdhd-low.cal:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/bcmdhd-low.cal \
-    device/huawei/angler/filter_ie:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/filter_ie
+    device/huawei/angler/bcmdhd.cal:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd.cal \
+    device/huawei/angler/bcmdhd-pme.cal:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd-pme.cal \
+    device/huawei/angler/bcmdhd-high.cal:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd-high.cal \
+    device/huawei/angler/bcmdhd-low.cal:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd-low.cal \
+    device/huawei/angler/filter_ie:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/filter_ie
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
