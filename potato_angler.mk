@@ -24,12 +24,13 @@ PRODUCT_COPY_FILES := device/huawei/angler/apns-full-conf.xml:system/etc/apns-co
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common PixelExperience stuff
+# Inherit some cool potato stuff
 TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOTANIM_LOW_RES := true
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, $(TOPDIR)vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, $(TOPDIR)vendor/potato/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_angler
+PRODUCT_NAME := potato_angler
 PRODUCT_DEVICE := angler
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6P
